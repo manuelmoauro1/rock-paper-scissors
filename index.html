@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R, P, & S</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <article class="container">
+        <div>
+            <div class="logo">
+                <img src="images/logo.svg" alt="">
+                <div class="score">
+                    <p class="pScore">SCORE</p>
+                    <p class="pScore" id="score"></p>
+                </div>
+            </div>
+            <div id="imgRules" class="hidden rulesDiv">
+                <h2>RULES</h2>
+                <img class="iconRules" src="images/image-rules.svg" alt="">
+                <img id="close" src="images/icon-close.svg" alt="">
+            </div>
+            <div class="game" id="game">
+                <div id="paper" class="surface">
+                    <div class="icon">
+                        <img src="images/icon-paper.svg" alt="">
+                    </div>
+                </div>
+                <div id="rock" class="surfaceRock">
+                    <div class="icon">
+                        <img src="images/icon-rock.svg" alt="">
+                    </div>
+                </div>
+                <div id="scissors" class="surfaceScissors">
+                    <div class="icon">
+                        <img src="images/icon-scissors.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <div class="container">
+        <p id="results">No winners yet. Your score is 0.</p>
+    </div>
+    <div class="rulesBtn">
+        <button id="rules" class="rules" type="button">RULES</button>
+    </div>
+</body>
+</html>

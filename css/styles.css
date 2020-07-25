@@ -1,0 +1,114 @@
+body {
+    background-color: #182343;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+.logo {
+    width: 500px;
+    border:  1px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+.logo img {
+    margin: 20px;
+}
+.score {
+    width: 100px;
+    height: 75px;
+    border: 1px solid white;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+.pScore {
+    font-size: 15px;
+    color: grey;
+    font-weight: bold;
+}
+.game {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.surface {
+    width: 100px;
+    height: 100px;
+    border: 15px solid #5475F4;
+    border-radius: 50%;
+}
+.surfaceRock {
+    margin-top: 150px;
+    width: 100px;
+    height: 100px;
+    border: 15px solid #DA3D4D;
+    border-radius: 50%;
+
+}
+.surfaceScissors {
+    width: 100px;
+    height: 100px;
+    border: 15px solid #ECA735;
+    border-radius: 50%;
+
+}
+.icon {
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rules {
+    width: 100px;
+    height: 30px;
+    background-color: #182343;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: grey;
+    font-weight: bold;
+}
+.rulesDiv {
+    border: 1px solid white;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.iconRules {
+    margin-top: 50px;
+}
+.rulesDiv h2 {
+    color: #182343;
+    font-weight: bold;
+}
+.hidden {
+    display: none;
+}
+#results {
+    font-size: 24px;
+    color: grey;
+    font-weight: bold;
+}
+@media only screen and (max-width: 768px) {
+    .logo {
+        width: 100%;
+    }
+    .rulesBtn {
+        display: flex;
+        justify-content: center;
+    }
+}
